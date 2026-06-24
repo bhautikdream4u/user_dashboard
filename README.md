@@ -81,10 +81,7 @@ Contributions, issues, and feature requests are welcome.
 
 GPL-2.0-or-later
 
-## Author
 
-**WPS247**
-Website: https://wps247.com
 
 ## Support
 
