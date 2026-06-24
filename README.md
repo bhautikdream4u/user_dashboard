@@ -41,10 +41,16 @@ After activation:
 
 ```text
 user-dashboard-wps247/
+├── account/
 ├── assets/
-├── includes/
-├── templates/
-├── languages/
+├── banner/
+├── classified-ads/
+├── dashboard/
+├── emails/
+├── events/
+├── offer/
+├── yellow-pages/
+├── global-status-email.php
 ├── user-dashboard-wps247.php
 └── README.md
 ```
