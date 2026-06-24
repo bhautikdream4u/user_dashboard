@@ -1,0 +1,76 @@
+
+/* === FILTER BAR STYLING === */
+.filters-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 12px 15px;
+    background: #f8f9fa;
+    border: 1px solid #e3e6ea;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.filters-row .filter-item label {
+    font-weight: 600;
+    margin-right: 5px;
+}
+.filters-row select,
+.filters-row input[type='text'] {
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* === LIST TABLE UX IMPROVEMENTS === */
+.table-listing {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.table-listing th {
+    background: #eef1f5;
+    padding: 10px;
+    font-weight: 600;
+    border-bottom: 2px solid #d5d8dc;
+}
+.table-listing td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Status Labels */
+.status-label {
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+.status-approved { color: #0f5132; background: #d1e7dd; }
+.status-pending  { color: #664d03; background: #fff3cd; }
+.status-rejected { color: #842029; background: #f8d7da; }
+.status-expired  { color: #b45309; background: #ffedd5; }
+
+/* Renew Button */
+.button-renew {
+    padding: 5px 9px;
+    border-radius: 4px;
+    background: #0d6efd;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 13px;
+}
+.button-renew:hover {
+    background: #0b5ed7;
+}
+
+/* Pagination */
+.pager {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.pager a {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+}
